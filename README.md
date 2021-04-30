@@ -23,8 +23,8 @@ Installed the go-dep
 ./login
 We need to update the IP address of Users Server in systemd.service file
 vi /etc/systemd/system/login.service
-systemctl daemon-reload
-systemctl enable login
-systemctl restart login
-sysytemctl start login
-systemctl status login
+#systemctl daemon-reload
+#systemctl enable login
+#systemctl restart login
+#sysytemctl start login
+#systemctl status login
