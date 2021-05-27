@@ -4,7 +4,7 @@ pipeline{
         stage("seeing artifacts"){
             steps{
                 sh '''
-                zip frontend.zip *
+                zip login.zip *
                 '''
             }
         }
