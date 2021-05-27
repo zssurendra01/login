@@ -1,0 +1,12 @@
+pipeline{
+    agent any
+    stages{
+        stage("seeing artifacts"){
+            steps{
+                sh '''
+                zip frontend.zip *
+                '''
+            }
+        }
+    }
+}
