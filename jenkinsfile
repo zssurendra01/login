@@ -1,8 +1,8 @@
-pipeline{
+pipeline {
     agent any
-    stages{
-        stage("seeing artifacts"){
-            steps{
+    stages {
+        stage('seeing artifacts') {
+            steps {
                 sh '''
                 zip login.zip *
                 '''
