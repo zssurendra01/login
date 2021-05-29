@@ -10,5 +10,13 @@ pipeline {
                 '''
             }
         }
+        stage ('Uploading artifacts to nexus') {
+            steps {
+                sh '''
+                curl -v -u admin:zelar123 --upload-file log.zip http://172.31.0.171:8081/repository/login/login.zip
+                '''
+
+            }
+        }
     }
 }
