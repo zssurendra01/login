@@ -1,22 +1,9 @@
-pipeline {
-    agent {
-        label "SLAVE"
-    }
-    stages {
-        stage('seeing artifacts') {
-            steps {
-                sh '''
-                zip login.zip *
-                '''
-            }
-        }
-        stage ('Uploading artifacts to nexus') {
-            steps {
-                sh '''
-                curl -v -u admin:zelar123 --upload-file login.zip http://172.31.6.224:8081/repository/login/login.zip
-                '''
+@Library('todo') _
 
-            }
-        }
-    }
+todo{
+     COMPONENT             : "login",
+        PROJECT_NAME          : "todo",
+        SLAVE_LABEL           : "GOLANG",
+        SKIP_NEXUS_UPLOAD     : false,
+        APP_TYPE              : "GOLANG"
 }
