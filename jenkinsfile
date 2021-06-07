@@ -6,6 +6,7 @@ Todo(
     SLAVE_LABEL       : "node1",
     SKIP_NEXUS_UPLOAD : false,
     APP_TYPE          : "GOLANG"
+    
         
 
 )
