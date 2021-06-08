@@ -1,9 +1,10 @@
 @Library('TODO') _
-Todo (
+
+Todo(
     COMPONENT         : "login",
-    PROJECT_NAME      :"TODO",
-    SLAVE_LABEL       : "node1",
+    PROJECT_NAME      : "TODO",
+    SLAVE_LABEL       : "GOLANG",
     SKIP_NEXUS_UPLOAD : false,
     APP_TYPE          :  "GOLANG"
-         
 )
+         
