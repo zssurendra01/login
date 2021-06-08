@@ -1,6 +1,6 @@
 @Library('TODO') _
 
-Todo(
+Todo (
     COMPONENT         : "login",
     PROJECT_NAME      : "TODO",
     SLAVE_LABEL       : "GOLANG",
