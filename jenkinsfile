@@ -3,8 +3,8 @@
 Todo(
     COMPONENT             : "login",
     PROJECT_NAME          : "TODO",
-    SLAVE_LABEL           : "GOLANG",
-    SKIP_NEXUS_UPLOAD     : false,
-    APP_TYPE              : "GOLANG"
+    SLAVE_LABEL           : "JAVA",
+    SKIP_NEXUS_UPLOAD     : false ,
+    APP_TYPE              : "NODEJS"
 )
     
